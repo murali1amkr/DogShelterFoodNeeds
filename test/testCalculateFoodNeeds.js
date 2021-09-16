@@ -15,7 +15,7 @@ describe('Food Order Calculations', () => {
     })
 
     it('Negative scenario: verify Proper message is displayed when strings are passed to the method', () => {
-        const warningMessage = getFoodNeedsToOrder(String, 3, 7, 17)
+        const warningMessage = getFoodNeedsToOrder("String", 3, 7, 17)
         expect(warningMessage).to.be.equal("Make sure you enter a Integer for no of dogs and remaining food");
     })
 
@@ -56,5 +56,4 @@ describe('Calculate Food needs based on size', () => {
         const food_Need = getFoodNeedsBasedOnDogSize("large", 10);
         expect(food_Need).to.be.equal(300)
     })
-
 })

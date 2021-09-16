@@ -11,7 +11,7 @@ remaining food.
 **### Run the Tests:**
 
 1. Navigate GuildEducationTakeHome folder.
-2. Execute npm run test
+2. To Execute use: npm run test
 
 **### Main Class: CalculateFoodNeeds.js**
 

@@ -1,0 +1,16 @@
+{
+  "name": "GuildEducationTakeHome",
+  "version": "1.0.0",
+  "description": "App to Determine Dog food inventory need's for the month",
+  "main": "CalculateFoodNeeds.js",
+  "scripts": {
+    "test": "mocha || true"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1"
+  }
+}
